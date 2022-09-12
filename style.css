@@ -1,0 +1,200 @@
+.wrapper {
+    margin: auto;
+    max-width: 80%;
+}
+
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+
+
+}
+
+.navigat1 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.navigat2 a {
+    text-decoration: none;
+    color: rgba(130, 130, 130, 1)
+}
+
+.line {
+    background-color: rgba(130, 130, 130, 1);
+    height: 2px;
+    border: none;
+    margin: 0%;
+
+
+}
+
+.Home {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+
+}
+
+.fullname {
+    font-weight: 800;
+}
+
+.name {
+
+    width: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.information {
+    margin: 10px auto;
+    padding: 10px;
+    width: 128px;
+    padding-top: 3%;
+}
+
+.language {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+}
+
+.photo img {
+    width: 100%;
+}
+
+.About {
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(246, 246, 246, 1);
+    padding-bottom: 100px;
+
+}
+
+.aboutme {
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+
+
+}
+
+.text {
+    padding-top: 50px;
+
+}
+
+p {
+    margin: auto;
+
+}
+
+.skills {
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+
+}
+
+.work {
+    padding-top: 50px;
+}
+
+.skill {
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+
+
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+
+}
+
+.content {
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(246, 246, 246, 1);
+
+}
+
+.portfolio {
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.imgpicture {
+    padding-top: 100px;
+}
+
+.picturetext {
+    padding-bottom: 100px;
+    text-decoration: underline;
+}
+
+.imgpicture {
+    padding-bottom: 50px;
+}
+
+.contacts {
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact {
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+
+.textcontact {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.button {
+    padding-top: 100px;
+    display: inline-block;
+    color: white;  
+    padding: .5em 2em;        
+    border-radius: 15px;
+    background: black;
+   
+}
+
+.icons {
+    display: flex;  
+    justify-content: space-between;     
+   margin: 50px;
+   margin-left: 45%;
+   margin-right: 45%;
+}
+
+
+.textcontacts {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color:  rgba(130, 130, 130, 1);
+    
+}
