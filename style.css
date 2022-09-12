@@ -184,12 +184,21 @@ p {
 }
 
 .icons {
-    display: flex;  
-    justify-content: space-between;     
-   margin: 50px;
-   margin-left: 45%;
-   margin-right: 45%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
+
+.icons .icons__content {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+img {
+    width: 100%;
+}
+
 
 
 .textcontacts {
