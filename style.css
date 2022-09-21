@@ -129,6 +129,13 @@ p {
 
 }
 
+.figma img {
+    width: 45%;
+    margin-top: 15%;
+}
+
+
+
 .content {
     margin: auto;
     max-width: 80%;
@@ -201,7 +208,8 @@ p {
 }
 
 img {
-    width: 50%;
+   max-width: 50%;
+    overflow: hidden;
 }
 
 
@@ -214,10 +222,13 @@ img {
 }
 
 
+
+
+
 .rating {
     display: flex;
     align-items: flex-end;
-    font-size: 40px;
+    font-size: 20px;
     line-height: 0.75;
  }
  
@@ -262,6 +273,7 @@ img {
     flex: 0 0 20%;
     height: 100%;
     opacity: 0;
+    margin: 0px 0px 0px 0px;
  }
  
  .rating__value {
