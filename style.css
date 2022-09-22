@@ -1,5 +1,8 @@
+body {
+    margin: 0px;
+}
 .wrapper {
-    margin: auto;
+    margin: 100px auto;
     max-width: 80%;
 }
 
@@ -38,8 +41,16 @@
     justify-content: space-between;
     padding: 0px 0px 0px 0px;
     align-items: center;
+    
 
 }
+
+.photo img {
+    width:100%;
+
+}
+
+
 
 .fullname {
     font-weight: 800;
@@ -65,14 +76,11 @@
 
 }
 
-.photo {
-    width: 100%;
-}
+
  
 
 .About {
-    margin: auto;
-    max-width: 80%;
+    margin: auto;   
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(246, 246, 246, 1);
@@ -99,8 +107,7 @@ p {
 }
 
 .skills {
-    margin: auto;
-    max-width: 80%;
+    margin: auto;   
     text-align: center;
 
 }
@@ -139,8 +146,7 @@ p {
 
 
 .content {
-    margin: auto;
-    max-width: 80%;
+    margin: auto;   
     text-align: center;
     justify-content: center;
     background-color: rgba(246, 246, 246, 1);
@@ -154,8 +160,10 @@ p {
 
 }
 
-.imgpicture {
+.imgpicture img {
     padding-top: 100px;
+    padding-bottom: 50px;
+    width: 80%;
 }
 
 .picturetext {
@@ -163,13 +171,10 @@ p {
     text-decoration: underline;
 }
 
-.imgpicture {
-    padding-bottom: 50px;
-}
+
 
 .contacts {
-    margin: auto;
-    max-width: 80%;
+    margin: auto;    
     text-align: center;
     justify-content: center;
 }
@@ -209,9 +214,7 @@ p {
     width: 35%;
 }
 
-img {   
- width: 100%; 
-}
+
 
 
 
