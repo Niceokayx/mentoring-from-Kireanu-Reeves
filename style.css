@@ -1,6 +1,7 @@
 body {
     margin: 0px;
 }
+
 .wrapper {
     margin: 100px auto;
     max-width: 80%;
@@ -18,7 +19,7 @@ body {
 .navigat1 {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    
+
 }
 
 
@@ -41,12 +42,12 @@ body {
     justify-content: space-between;
     padding: 0px 0px 0px 0px;
     align-items: center;
-    
+
 
 }
 
 .photo img {
-    width:100%;
+    width: 100%;
 
 }
 
@@ -77,10 +78,10 @@ body {
 }
 
 
- 
+
 
 .About {
-    margin: auto;   
+    margin: auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(246, 246, 246, 1);
@@ -107,7 +108,7 @@ p {
 }
 
 .skills {
-    margin: auto;   
+    margin: auto;
     text-align: center;
 
 }
@@ -146,7 +147,7 @@ p {
 
 
 .content {
-    margin: auto;   
+    margin: auto;
     text-align: center;
     justify-content: center;
     background-color: rgba(246, 246, 246, 1);
@@ -174,7 +175,7 @@ p {
 
 
 .contacts {
-    margin: auto;    
+    margin: auto;
     text-align: center;
     justify-content: center;
 }
@@ -234,27 +235,27 @@ p {
     align-items: flex-end;
     font-size: 20px;
     line-height: 0.75;
- }
- 
- .rating__body {
+}
+
+.rating__body {
     position: relative;
- }
- 
- .rating__body::before {
+}
+
+.rating__body::before {
     content: "★★★★★";
     display: block;
- }
- 
- .rating__active {
+}
+
+.rating__active {
     position: absolute;
     width: 0%;
     height: 100%;
     top: 0;
     left: 0;
     overflow: hidden;
- }
- 
- .rating__active::before {
+}
+
+.rating__active::before {
     content: "★★★★★";
     position: absolute;
     width: 100%;
@@ -262,26 +263,26 @@ p {
     top: 0;
     left: 0;
     color: #ffd300;
- }
- 
- .rating__items {
+}
+
+.rating__items {
     display: flex;
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
- }
- 
- .rating__item {
+}
+
+.rating__item {
     flex: 0 0 20%;
     height: 100%;
     opacity: 0;
     margin: 0px 0px 0px 0px;
- }
- 
- .rating__value {
+}
+
+.rating__value {
     font-size: 50%;
     line-height: 1;
     padding: 0px 0px 0px 10px;
- }
+}
