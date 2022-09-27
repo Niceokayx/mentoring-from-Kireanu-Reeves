@@ -13,7 +13,22 @@ body {
     list-style-type: none;
     padding: 0px;
 
+}
 
+.Navigationmob {
+    display: none;
+}
+
+.inf1 {
+    display: none;
+}
+
+.namemob {
+    display: none;
+}
+
+.hidden {
+    display: none;
 }
 
 .navigat1 {
@@ -74,6 +89,12 @@ body {
 .language {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
+
+}
+
+.photomobile {
+
+    display: none;
 
 }
 
@@ -285,4 +306,138 @@ p {
     font-size: 50%;
     line-height: 1;
     padding: 0px 0px 0px 10px;
+}
+
+.navmobil {
+    display: none;
+}
+
+@media (max-device-width: 375px) {
+
+    .navigationmob
+    {
+        display: block;
+    }
+
+    .full {
+        display: none;
+    }
+
+    
+
+    .photomobile {
+        display: block;
+        text-align: center;
+    }
+
+    .photomobile img {
+        width: 80%;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .line .language {
+        display: none;
+    }
+
+    .aboutext {
+        margin: 100px;
+    }
+
+    .picture {
+        flex-direction: column;
+    }
+
+    .figma {
+        width: 10%;
+        margin-left: 45%;
+    }
+
+    .navmobil {
+        flex-direction: row;
+        display: block;
+
+    }
+
+    .knopka {
+        text-align: right;
+        margin: 0px 0px -60px 0px;
+    }
+
+    .Navigationmob {
+        list-style-type: none;
+
+    }
+
+    .naviigatmob {
+        line-height: 2;
+        font-size: 20px;
+    }
+
+    .naviigat1mob {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        
+    }
+
+    .naviigat2mob a {
+        line-height: 2;
+
+        text-decoration: none;
+        color: rgba(130, 130, 130, 1);
+    }
+
+    .languagemob {
+        writing-mode: vertical-rl;
+        margin-left: 100%;
+        font-size: 40px;
+    }
+
+    .languagemob2 {
+        color: rgba(130, 130, 130, 1);
+
+    }
+
+    
+
+    .namemob {
+        font-size: 40px;
+    }
+
+    .openmenu {
+        
+            text-align: right;
+            margin: 0px 0px -90px 0px;
+        
+    }
+
+    .informationmob {
+        font-size: 25px;
+        margin-top: 20px;
+       
+    }
+     ul {
+        padding: 0px 0px 0px 0px ;
+     }
+
+    .inf1 {
+        margin: 0px 0px 50px 0px;
+    }
+
+    .Navigationmob {
+        display: block;
+    }
+    
+    .inf1 {
+        display: block;
+    }
+    
+    .namemob {
+        display: block;
+    }
+
+   
+
 }
