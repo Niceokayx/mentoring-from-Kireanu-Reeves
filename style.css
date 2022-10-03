@@ -357,7 +357,7 @@ p {
 
     .navmobil {
         flex-direction: row;
-        display: block;
+        display: none;
 
     }
 
@@ -438,6 +438,13 @@ p {
         display: block;
     }
 
-   
 
+    .hidden {
+
+       display: block;
+    }
+   
+  .anhidden {
+    display: none;
+  }
 }

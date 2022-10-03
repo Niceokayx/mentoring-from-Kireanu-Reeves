@@ -55,5 +55,39 @@ function initRatings() {
   }
 }
 
+function jopaClose() {
+  const openj = document.querySelector(".opening");
+  const closej = document.querySelector(".opening");    
+  const navmobil = document.querySelector(".navmobil");  
+ const Homemob = document.querySelector(".Homemob")
+ const photomobile = document.querySelector(".photomobile")
+  openj.classList.add("hidden");  
+  closej.classList.add("hidden");
+  navmobil.classList.add("hidden");
+  Homemob.classList.add("anhidden");
+  photomobile.classList.add("anhidden");
 
+ 
+  
+ 
+ 
+}
 
+function jopaOpen() {
+  const openj = document.querySelector(".opening");
+  const closej = document.querySelector(".opening");
+  const navmobil = document.querySelector(".navmobil");
+  const Homemob =document.querySelector(".Homemob");
+  const photomobile = document.querySelector(".photomobile");
+  openj.classList.remove("hidden"); 
+  closej.classList.remove("hidden");
+  navmobil.classList.remove("hidden"); 
+  Homemob.classList.remove("anhidden")
+  photomobile.classList.remove("anhidden")
+ 
+ 
+    
+  
+  }
+  
+ 
